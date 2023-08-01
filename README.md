@@ -15,7 +15,7 @@ To run this project, you need to have the following installed on your system:
 
 2. Navigate to the project directory:
    ```bash
-   cd reqres-sample-api-testing-python
+   cd API_Testing_Python
 4. Install the required dependencies:
     ```bash
    pip install -r requirements.txt
