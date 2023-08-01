@@ -11,5 +11,21 @@ To run this project, you need to have the following installed on your system:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/reqres-sample-api-testing-python.git
+   git clone https://github.com/absiddik7/API_Testing_Python
+
+2. Navigate to the project directory:
+   ```bash
+   cd reqres-sample-api-testing-python
+4. Install the required dependencies:
+    ```bash
+   pip install -r requirements.txt
+
+## Usage
+This project uses Pytest for writing and running test cases. The test cases are written in Python and can be found under the 'test' directory.
+
+## Running Tests
+To run the test cases, use the following command:
+```bash
+pytest
+
 
