@@ -23,9 +23,17 @@ To run this project, you need to have the following installed on your system:
 ## Usage
 This project uses Pytest for writing and running test cases. The test cases are written in Python and can be found under the 'test' directory.
 
-## Running the Tests
+## Running all the Tests
 To run the test cases, use the following command:
 ```bash
 pytest
+
+## Running Specific Test
+To run the test cases, use the following command:
+```bash
+pytest test/test_create_user.py
+
+
+
 
 
