@@ -1,6 +1,7 @@
 import requests
 
 
+# validate user deletion
 def test_delete_user():
     url = "https://reqres.in/api/users/2"
     response = requests.delete(url)
