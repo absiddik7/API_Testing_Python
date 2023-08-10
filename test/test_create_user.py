@@ -17,3 +17,11 @@ def test_create_user():
     # validate the response data against the request data
     assert response.json()['name'] == request_json['name']
     assert response.json()['job'] == request_json['job']
+
+
+
+
+
+
+
+
