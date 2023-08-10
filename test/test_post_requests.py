@@ -6,9 +6,7 @@ import jsonpath
 def test_create_user():
     url = "https://reqres.in/api/users"
 
-    file = open('newUser.json', 'r')
-
-    #file = open('C:\\Users\\sande\\PycharmProjects\\APIAutomation\\resources\\create_user.json', 'r')
+    file = open('test/newUser.json', 'r')
     json_input = file.read()
     request_json = json.loads(json_input)
     response = requests.post(url, request_json)
