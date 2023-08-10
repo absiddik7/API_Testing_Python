@@ -19,15 +19,16 @@ To run this project, you need to have the following installed on your system:
 4. Install the required dependencies:
     ```bash
    pip install -r requirements.txt
-
+   
 ## Usage
 This project uses Pytest for writing and running test cases. The test cases are written in Python and can be found under the 'test' directory.
 
 ## Running all the Tests
-To run the test cases, use the following command:
-```bash
-pytest
-
+   To run all the test cases, use the following command:
+      ```bash
+      pytest
+         
+      
 ## Running Specific Test
 To run the test cases, use the following command:
 ```bash
